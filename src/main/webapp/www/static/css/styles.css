@@ -1,0 +1,25 @@
+html, body, .container-table {
+    height: 100%;
+}
+
+.container-table {
+    display: table;
+}
+
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.player-informations-container {
+    width: 100%;
+    overflow: auto;
+}
+
+.player-informations {
+    border: none;
+}
+
+.player-informations .space {
+    padding-left: 20px;
+}
